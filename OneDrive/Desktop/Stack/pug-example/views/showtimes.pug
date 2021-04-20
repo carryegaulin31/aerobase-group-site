@@ -1,0 +1,8 @@
+html 
+  include partials/head.pug
+    body 
+     h1 Showtimes 
+      h2= movie.title 
+     ul 
+        for time in movie.showTimes 
+          li= time
